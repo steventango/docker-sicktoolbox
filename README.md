@@ -1,6 +1,6 @@
 # docker-sicktoolbox
 
-Containers for interfacing with the SICK LMS2xx lasers. Dockerfile and Compose
+Docker container for interfacing with the SICK LMS2xx lasers. Dockerfile and Compose
 specification for [sicktoolbox](http://wiki.ros.org/sicktoolbox) and
 [sicktoolbox_wrapper](http://wiki.ros.org/sicktoolbox_wrapper) packages which
 are only released in EOL distros.
