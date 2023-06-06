@@ -1,6 +1,7 @@
 services:
   sicktoolbox:
     build: .
+    image: steventango/sicktoolbox
     devices:
       - /dev/ttyUSB0:/dev/ttyUSB0
     network_mode: host
