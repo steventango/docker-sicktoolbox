@@ -1,0 +1,10 @@
+services:
+  sicktoolbox:
+    build: .
+    environment:
+      DISPLAY: $DISPLAY
+    network_mode: host
+    privileged: true
+    volumes:
+      - /dev:/dev
+    command: rosrun sicktoolbox_wrapper sicklms _port:=/dev/ttyUSB0 _baud:=38400
